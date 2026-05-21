@@ -658,7 +658,7 @@ function Win11UIModule.new(config)
 		BackgroundTransparency = 1,
 		ClipsDescendants = true,
 	})
-	neon:BindFrame(window, { Transparency = 0.5, BrickColor = BrickColor.new("Institutional white") })
+	neon:BindFrame(window, { Transparency = 0.89, BrickColor = BrickColor.new("Institutional white") })
 	
 	new("UICorner", window, { CornerRadius = UDim.new(0, 10) })
 	new("UIStroke", window, { Color = C.BORDER, Thickness = 1, ApplyStrokeMode = Enum.ApplyStrokeMode.Border })
